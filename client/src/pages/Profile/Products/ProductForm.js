@@ -106,10 +106,11 @@ function ProductForm({showProductForm,setShowProductForm,selectedProduct,getData
                     <Form.Item label="Category" name="category"rules={rules}>
                        <select name='' id="">
                        <option value="">Select</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="sports">Sports</option>
-                        <option value="home">Home</option>
-                        <option value="fashion">Fashion</option>
+                       <option value="home">Air Cooler</option>
+                        <option value="electronics">Books</option>
+                        <option value="sports">Bicycle</option>
+                        <option value="home">Electronics</option>
+                        <option value="home">Sports</option>
                        </select>
                     </Form.Item>
                 </Col>
