@@ -18,7 +18,6 @@ export const LoginUser = async(payload)=>{
         return error.message 
     }
 }
-
 // get current user..
 export const GetCurrentUser = async()=>{
     try {
@@ -28,7 +27,6 @@ export const GetCurrentUser = async()=>{
         return error.message
     }
 }
-
 // get all users..
 export const GetAllUsers = async()=>{
     try {
@@ -38,7 +36,6 @@ export const GetAllUsers = async()=>{
         return error.message
     }
 }
-
 // update users status...
 export const UpdateUserStatus = async(id,status)=>{
     try {
