@@ -59,7 +59,7 @@ router.post("/login",async(req,res)=>{
         // compare password..
         const validPassword = await bcrypt.compare(req.body.password,user.password);
         if(!validPassword){
-            throw new Error("Invalid username orn Password");
+            throw new Error("Invalid username or Password");
         }
         // create and assign token...
         const token = jwt.sign({userId:user._id},process.env.jwt_secret,{expiresIn:"1d"});

@@ -84,8 +84,8 @@ function Protected({ children }) {
           🏛️ BuySellClassico 🏛️
           </h1>
 
-          <div className='bg-white py-2 px-2 rounded flex gap-2 items-center'>
-            <span className='underline cursor-pointer uppercase'
+          <div className= 'user-container bg-white py-2 px-2 rounded flex gap-2 items-center ant-row'>
+            <span className='username underline cursor-pointer uppercase ant-col-xs-24 ant-col-xl-12'
               onClick={() => {
                 if (user.role === "user") navigate("/profile");
                 else navigate("/admin");

@@ -37,3 +37,25 @@ i{
 .max-width{
     max-width: max-content !important;
 }
+
+.ant-table-content {
+    overflow-x: auto!important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .user-container {
+      flex-direction: column !important;
+      gap:4px !important;
+      align-items: center !important;
+    }
+  
+    .username {
+      font-size:  10px !important;
+    text-align: center;
+    }
+  }
+  
+  
+  
+  
+  
