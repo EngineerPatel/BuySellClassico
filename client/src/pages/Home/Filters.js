@@ -27,7 +27,7 @@ const ages=[
         value:"0-1"
     },
     {
-        name:"2-3 years old",
+        name:"1-3 years old",
         value:"1-3",
     },{
         name:"3-5 years old",
